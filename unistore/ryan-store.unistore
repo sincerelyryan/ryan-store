@@ -1,1 +1,44 @@
-test
+{
+  "storeInfo": {
+    "url": "https://github.com/sincerelyryan/ryan-store/raw/refs/heads/main/unistore/ryan-store.unistore",
+    "file": "ryan-store.unistore",
+    "title": "Ryan-Store",
+    "author": "Ryan",
+    "description": "Ryans Custom unistore",
+    "revision": 1,
+    "sheet": "ryan-store.t3x",
+    "sheetURL": "https://github.com/sincerelyryan/ryan-store/raw/refs/heads/main/unistore/ryan-store.t3x",
+    "version": 3
+  },
+
+  "storeContent": [
+
+    {
+      "Download Example CIA App 1.0": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/sincerelyryan/ryan-store/raw/refs/heads/main/cias/test-cia.cia",
+          "output": "sdmc:/test-cia.cia",
+          "message": "Downloading Test CIA App..."
+        },
+        {
+          "type": "installCia",
+          "file": "/test-cia.cia",
+          "message": "Installing Test CIA App..."
+        }
+      ],
+
+      "info": {
+        "title": "Test CIA App",
+        "version": "1.0",
+        "author": "Ryan",
+        "category": ["utility"],
+        "console": ["3DS"],
+        "icon_index": 0,
+        "license": "",
+        "description": "just a cia file for testing!"
+      }
+    }
+
+  ]
+}
